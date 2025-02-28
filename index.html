@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 3</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="id_titulo_juego"></h1>
+    </header>
+    <main>
+        <section class="section_total">
+            <h2 id="id_preguntar"></h2>
+            <div class="div_opciones">
+                <p class="p_texto" id="id_opcion1"></p>
+                <p class="p_texto" id="id_opcion2"></p>
+            </div>
+            <div class="div_btn_contenedor1">
+                <input type="text" id="id_ingresar_respuesta" >
+                <div>
+                    <input type="button" id="id_btn1" onclick="btn1Elegir();" value="">
+                    <input type="button" id="id_btn2" onclick="btn2Elegir();" value="">
+                </div>
+            </div>
+            <div>                
+                <div class="div_btn_contenedor2">
+                    <input type="button" id="id_btn_volver" onclick="btnOk();" value="">
+                    <input type="button" id="id_btn_finalizar" onclick="btnFinalizar();" value="">
+                </div>
+                <p class="p_texto" id="id_mensaje"></p>
+                <p class="p_texto" id="id_listaP"></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p></p>
+    </footer>
+
+    <script src="./apps/app.js"></script>
+</body>
+</html>
