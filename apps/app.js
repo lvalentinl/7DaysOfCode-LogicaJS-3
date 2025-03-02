@@ -51,7 +51,7 @@ condicionesIniciales();
 
 function ocultarMostrarElementoHTML(idElemento, opcion){
     //let ocultarElemento = 
-    return document.getElementById(idElemento).hidden = opcion;;
+    return document.getElementById(idElemento).hidden = opcion;
 }
 
 function btnOk(){
